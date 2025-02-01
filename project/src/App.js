@@ -4,6 +4,7 @@ import Intro1 from "./components/Intro1.js"
 import Intro2 from "./components/Intro2.js"
 import Intro3 from "./components/Intro3.js"
 import Footer from "./components/Footer.js"
+import ModeToggler from "./components/ModeToggler.js"
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Nav first="Home" second="Article"/>
       <Promo firstName="Lara Barsi"/>
       <Promo firstName="João Gabriel"/>
+      <ModeToggler />
       <Intro1 />
       <Intro2 />
       <Intro3 />
